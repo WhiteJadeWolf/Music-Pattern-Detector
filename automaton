@@ -1,0 +1,17 @@
+digraph {
+	0 [label=root]
+	1 [label=I]
+	2 [label=IV]
+	3 [label=V]
+	4 [label="I* (P1)"]
+	5 [label=ii]
+	6 [label=V]
+	7 [label="I* (P2)"]
+	0 -> 1 [label=I]
+	1 -> 2 [label=IV]
+	2 -> 3 [label=V]
+	3 -> 4 [label=I]
+	0 -> 5 [label=ii]
+	5 -> 6 [label=V]
+	6 -> 7 [label=I]
+}
